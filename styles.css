@@ -1,14 +1,53 @@
-.index {
+
+.header{
+    display:flex;
+
+
+margin-bottom:20px;
+margin-top:40px;
+background: #5e5e5e;  
+padding: 110px;  
+border-radius: 30px; 
+line-height: 1.4;
+border: 9px solid rgb(70, 70, 70);
+box-shadow: 10px 10px 20px;
+
+
+
+}
+
+
+.text{ 
+    display:flex;
+    justify-content:center;
     text-align: center;
 }
 
-body.index h1{
-margin-bottom:20px;
-background: #f24e4e;  
-    padding: 50px;  
-    border-radius: 5px; 
-line-height: 1.4;
+.text{
+    margin-top:-230px;
+    
+
 }
+
+
+
+
+
+
+.header h1{
+    position:relative; 
+    top:30px;
+}
+
+.img {
+position:absolute; 
+top: 105px;
+left: 0;
+right:0;
+margin:auto; 
+}
+ 
+
 
 
 
